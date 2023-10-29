@@ -344,7 +344,7 @@ border: none;
   margin-right: 30px;
   margin-bottom: 32px;
   max-height: 780px;
-  overflow: hidden;
+  overflow-y: auto;
 
  }
 

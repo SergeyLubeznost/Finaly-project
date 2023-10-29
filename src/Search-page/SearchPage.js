@@ -24,6 +24,8 @@ const SearchPage = () => {
   const [bik, setBik] = useState(true);
   const [docLimit, setDocLimit] = useState(true);
   const [dateRangeValid, setDateRangeValid] = useState(true);
+  const [startDateType, setStartDateType] = useState("text");
+const [endDateType, setEndDateType] = useState("text");
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -286,35 +288,93 @@ const emptyForm = () =>{
       <form className='formSerach' onSubmit={handleSubmit} >
             <div className="importantFields">
             <label className='numberINN' htmlFor="numberINN">ИНН компании*</label>
-            <input className={` ${ bik ? "borderForm" : "borderInput"}`} type="text"  required id='numberINN' maxLength={10} placeholder='10 цифр'  value={numberINN} onChange={(event) => {
-  setNumberINN(event.target.value);}} />  
+
+            <input 
+            className={` ${ bik ? "borderForm" : "borderInput"}`} 
+            type="text"  
+            required id='numberINN' 
+            maxLength={10}
+             placeholder='10 цифр' 
+              value={numberINN}
+               onChange={(event) => {
+                setNumberINN(event.target.value);}} />  
+                
              { bik ? null : <p className='redErorr'>{error.message}</p>}
            
             <label className='tonality' htmlFor="tonality" >Тональность</label> 
+
             <img
               className='arrow' 
               src={Arrow}
               alt="Логотип к"/>
-           <select className="tonalitySelect" id="tonality"  value={tonality} onChange={(event) => {
-  setTonality(event.target.value);}}>
+           <select
+            className="tonalitySelect"
+             id="tonality" 
+              value={tonality} 
+              onChange={(event) => {
+              setTonality(event.target.value);}}>
                     <option>позитивная</option>
                     <option>любая</option>
                     <option>негативная</option>
             </select>
 
-            <label className='numberOfDocuments' htmlFor="numberOfDocuments">Количество документов в выдаче*</label>
-            <input className={` ${ docLimit ? "borderForm" : "borderInput"}`} type="number" min="0" max="1000" maxLength={4} required id="numberOfDocuments" placeholder="От 1 до 1000"  value={numberOfDocuments} onChange={(event) => {
-  setNumberOfDocuments(event.target.value);}}/>
-  { docLimit ? null : <p className='redErorr'>{errorLimit.message}</p>}
+            <label
+             className='numberOfDocuments'
+              htmlFor="numberOfDocuments">
+                Количество документов в выдаче*
+                </label>
+
+            <input
+             className={` ${ docLimit ? "borderForm" : "borderInput"}`}
+              type="number" 
+              min="0" max="1000"
+               maxLength={4}
+                required id="numberOfDocuments" 
+                placeholder="От 1 до 1000" 
+                 value={numberOfDocuments} 
+                 onChange={(event) => {
+                  setNumberOfDocuments(event.target.value);}}/>
+                   { docLimit ? null : <p className='redErorr'>{errorLimit.message}</p>}
             
             <label >Диапазон поиска*</label>
         <div className="dateContainer">
           
-        <input className={` ${ dateRangeValid ? "borderForm" : "borderInput"}`} type="date" placeholder="Дата начала" required id="startDate"  value={startDate} onChange={(event) => {
-  setStartDate(event.target.value);}}/>
+        <input
+         className={` ${dateRangeValid ? "borderForm" : "borderInput"}`}
+          type={startDateType}
+            placeholder="Дата начала"
+             required
+              id="startDate"
+                value={startDate}
+                 onChange={(event) => {
+                  setStartDate(event.target.value);
+                   }}
+                     onFocus={() => {
+                      setStartDateType("date");
+                        }}
+                      onBlur={() => {
+                        setStartDateType("text");
+                          }}
+          />
 
-        <input className={`"searchRange" ${ dateRangeValid ? "borderForm" : "borderInput"}`} placeholder="Дата конца" type="date" required id="endDate" value={endDate} onChange={(event) => {
-  setEndDate(event.target.value);}} />
+                    <input
+                      className={`searchRange ${dateRangeValid ? "borderForm" : "borderInput"}`}
+                        placeholder="Дата конца"
+                          type={endDateType}
+                          required
+                            id="endDate"
+                              value={endDate}
+                              onChange={(event) => {
+                                setEndDate(event.target.value);
+                                  }}
+                                  onFocus={() => {
+                                    setEndDateType("date");
+                                      }}
+                                    onBlur={() => {
+                                        setEndDateType("text");
+                                            }}
+                    />
+      
   
         </div>
        <div className="errorBlock"> { dateRangeValid ?  null : <p className='redErorrDate dateMrg'>{errorDate.message}</p>}
