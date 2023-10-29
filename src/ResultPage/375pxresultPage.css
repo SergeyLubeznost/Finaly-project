@@ -1,0 +1,367 @@
+@media screen and (width <= 768px){
+
+    .titleResultContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 375px;
+        margin: auto;
+        
+    }
+
+    .titleContainer{
+        margin-top: 69px;
+        margin-left: 14px;
+    }
+
+    .titleContainer h1{
+        width: 375px;
+        color: #000;
+        font-family: 'Ferry', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.28px;
+    }
+
+    .titleContainer p{
+        width: 447px;
+        color: #000;
+        font-family:"Inter";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+        margin-top: 21px;
+        width: 375px;
+    }
+
+    .titleResultContainer img{
+        margin-right: 0px;
+        width: 350px;
+        height: 233.731px;
+        flex-shrink: 0;
+        margin-top: 24px;
+    }
+
+    .generelSummary{
+        width: 375px;
+    }
+    .titleResult{
+        margin-left: 14px;
+    }
+
+    .titleResult h2{
+        width: 447px;
+        color: #000;
+        font-family: 'Ferry', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        width: 332px;
+    }
+
+    .titleResult p{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        width: 332px;
+    }
+
+    .contSection{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .resultSliderContainer{
+        width: 298px;
+        height: 140px;
+        border-radius: 10px;
+        background: #FFF;
+        border: none;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleSummary{
+        width: 298px;
+        height: 75px;
+        
+        flex-shrink: 0;
+        border-radius: 7px 7px 0px 0px;
+        background: #029491;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    
+        color: #FFF;
+        font-family: "Inter";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        
+    }
+
+    .slideTotal{
+        color: #000;
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.16px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    
+        width: 254px;
+        height: 75px;
+        margin-left: 3%;
+        border-right: none;
+        margin-top: -2%;
+        
+      }
+
+      .buttonBackRisk {
+        position: relative;
+        bottom: 139px;
+        left: -42px;
+        width: 39px;
+        height: 39px;
+        top: -72%;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+    }
+      
+    
+      .buttonBackRisk img{
+        width: 39px;
+        height: 39px;
+      }
+      
+      .buttonNextRisk {
+        position: relative;
+        bottom: 139px;
+        left: 259px;
+        width: 39px;
+        height: 39px;
+        top: -72%;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+      }
+    
+      .buttonNextRisk img{
+        width: 39px;
+        height: 39px;
+      }
+
+      .widthPar{
+        width: 105px;
+      }
+
+      .newsBlock{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 375px;
+        
+      }
+
+      .titleNews{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0px;
+        margin-top: -45px;
+       }
+       .titleNews h2{
+        width: 335px;
+        color: #000;
+        font-family: 'Ferry', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        margin-right:14px ;
+        
+       }
+
+       .resultNews{
+        display: flex;
+        width: 375px;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 58px;
+        justify-content: center;
+       }
+
+       .cardNews{
+        width: 335px;
+        max-height: 694px;
+        flex-shrink: 0;
+        
+        margin-right: 0px;
+        margin-bottom: 38px;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+       }
+
+       .newsSubHead{
+        display: flex;
+        width: 335px;
+       
+       }
+      
+       .dateHead{
+        color: #949494;
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.14px;
+        margin: 19px 9px 24px 24px;
+        width: 85px;
+       }
+
+       .sourceHead{
+        color: #949494;
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.14px;
+        margin-top: 19px;
+        
+       }
+
+       .titleMainNews{
+        width: 290px;
+        color: #000;
+        font-family: "Inter";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.19px;
+        margin-left: 24px;
+        margin-bottom: 14px;
+       }
+
+       .categoryNews{
+        width: 132px;
+        height: 20px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FFB64F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 24px;
+        margin-bottom: 14px;
+       }
+
+       .categoryNews p{
+        color: #000;
+        font-family: "Inter";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.1px;
+       }
+
+       .mainTextNews{
+        width: 290px;
+        color: rgba(0, 0, 0,0.5);
+        font-family: "Inter";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.12px;
+        margin-left: 24px;
+        margin-right: 0px;
+        margin-bottom: 32px;
+        max-height: 383px;
+        overflow: hidden;
+      
+       }
+
+       .readToSource button{
+        width: 195px;
+        height: 40.696px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.14px;
+        border: none;
+        margin-left: 24px;
+        border-radius: 5px;
+        background: #7CE3E1;
+        margin-bottom: 40px;
+        cursor: pointer;
+       }
+
+       .wordCount{
+        color: #949494;
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.32px;
+        margin-right: 27px;
+        margin-bottom: 35px;
+      
+       }
+
+       .lazyLoad{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 57px;
+       }
+
+       .lazyLoad button{
+        width: 335px;
+        height: 59px;
+        flex-shrink: 0;
+      
+        border-radius: 5px;
+        background: #5970FF;
+        cursor: pointer;
+        color: #FFF;
+        font-family: "Inter";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.6px;
+
+      
+        border: none;
+       }
+}

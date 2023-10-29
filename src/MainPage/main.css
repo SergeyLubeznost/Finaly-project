@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@900&display=swap');
+@font-face {
+    font-family: 'Ferry';
+    src: url('../fonts/ferry_black.otf') format('opentype');
+    /* Добавьте другие форматы шрифтов, если они у вас есть */
+  }
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.requestContainer{
+    width: 1320px;
+    height: 593px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageRequest img{
+   width: 760px;
+   height: 593px;
+}
+
+.contTitle{
+    margin-top: 18px;
+}
+
+.contTitle :first-child{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-bottom: 19px;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 607px;
+
+}
+
+.contTitle .par{
+   
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    width: 534px;
+    margin-left: 14px;
+    
+}
+
+.requestData{
+    width: 335px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #5970FF;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    cursor: pointer;
+    margin-bottom: 90px;
+}
+
+.requstTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.whyMe{
+    width: 1320px;
+    height: 350px;
+}
+
+.whyTitle{
+    width: 743px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.45px;
+}
+
+.slider{
+    height: 245px;
+    max-width: 1310px;
+}
+.carousel{
+    width: 1290px;
+    height: 247px;
+}
+
+.base, .guard, .fastTime{
+    width: 400px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.base img ,.guard img ,.fastTime img {
+    margin-top: 22px;
+    margin-left: 19px;
+    width: 65px;
+    height: 65px
+}
+
+.base p ,.guard p ,.fastTime p {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    width: 313px;
+    margin-bottom: 68px;
+    margin-left: 20px;
+}
+
+.buttonBack, .buttonNext{
+background-color: rgba(255, 255, 255, 0);
+border: none;
+}
+
+.buttonBack{
+    position: relative;
+    bottom: 139px;
+    left: -27px;
+    width: 39px;
+    height: 39px;
+}
+.buttonNext{
+    position: relative;
+    bottom: 139px;
+    left: 1240px;
+    width: 39px;
+    height: 39px;
+}
+
+.buttonNext img {
+    width: 39px;
+    height: 39px;
+}
+
+.buttonBack img {
+    width: 39px;
+    height: 39px;
+}
+
+.contSlider{
+    margin-bottom: 70px;
+    margin-top: 70px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.hiPhoto{
+    max-width: 1440px;
+    height: 575.522px;
+}
+
+.containerTariff{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    height: 822px;
+    margin-top: 107px;
+}
+
+.tariffTitle{
+    width: 743px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.45px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.tariffCard{
+    width: 415px;
+    height: 565px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 415px;
+    height: 132px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.target{
+    width: 93.763px;
+    height: 103.97px;
+    flex-shrink: 0;
+    margin-left: -119px;  
+}
+
+.laptop{
+    width: 96px;
+    height: 80.09px;
+    flex-shrink: 0;
+    margin-left: -119px;  
+}
+
+.lamp{
+    width: 96px;
+    height: 80.09px;
+    flex-shrink: 0;
+    margin-left: -119px;  
+}
+
+
+
+.cardHead{
+    width: 415px;
+    height: 132px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.blackT{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.blackP{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    width: 415px;
+    height: 132px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 313px;
+    height: 22px;
+}
+.whiteT{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.whiteP{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    width: 415px;
+    height: 132px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 313px;
+    height: 22px;
+}
+
+ 
+
+.optionTariff{
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    height: 433px;
+}
+
+.currentTariff{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 40px;
+    margin-top: 12px;
+}
+
+.currentTariff button{
+    width: 134px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3BA5E0;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    margin-right: 10px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.price p{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+.price p span{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    text-decoration-line:line-through;
+    opacity: 0.5;
+    margin-left: 19px;
+}
+
+.price .condition{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-top: 10px;
+    height: 18px;
+
+}
+
+.listTariff{
+    display: flex;
+    flex-direction: column;
+    margin-top: 59px;
+}
+
+.listTariff p{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin-left: 30px;
+}
+
+.listTariff ul{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-left: 59px;
+    width: 343px;
+}
+
+.listTariff ul li{
+    list-style-image: url("./icons8-галочка-96 1.svg");
+    margin-bottom: 5px;
+}
+
+.optionTariff .more{
+    width: 355px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #5970FF;
+    border: none;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin: 55px 30px 24px 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.yellow{
+    background: #FFB64F;
+}
+
+.blue{
+    background: #7CE3E1;
+
+}
+
+.black{
+    background: #000;
+    
+}
+
+.spyBut{
+    opacity:0 ; 
+    transition: all 0.5s ease-in-out;
+}
+
+.noneButton{
+    display: none;
+}
+
+.selected{
+    border:5px solid #FFB64F;
+}
+.selected2{
+    border:5px solid #7CE3E1;
+}
+.selected3{
+    border:5px solid #000000;
+}
+
+.buttonSelect{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.buttonSelect2{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.buttonSelect3{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.selectMore{
+    transition: all 0.5s ease-in-out;
+    width: 355px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D2D2D2;
+    border: none;
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin: 55px 30px 24px 30px;
+
+}

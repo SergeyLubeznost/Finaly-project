@@ -1,0 +1,184 @@
+@media screen and (width <= 768px){
+
+.fCont{
+    height:1170px;
+    width: 375px;
+    margin: auto;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 375px;
+    margin: 0px auto 80px auto;
+    height: 1170px;
+    position: relative;
+    bottom: 0%;
+}
+
+.titleForm{
+    width: 375px;
+}
+
+.titleForm p {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    margin-left: 14px;
+    width: 295px;
+}
+
+.titleForm img {
+    margin-left: 14px;
+    position: relative;
+    top: 136%;
+}
+
+.formBlock{
+    width: 335px;
+    height: 504px;
+    justify-content: center;
+    position: relative;
+    bottom: 40%;
+    margin-left: 14px;
+    
+}
+
+.authSelect{
+    width: 335px;
+    height: 52px;
+}
+
+.enterForm{
+    width: 79px;
+    margin-top: 25px;
+    margin-left: 46px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.reg{
+    width: 168px;
+    text-align: center;
+    margin-right: 31px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+form {
+    width:305px;
+
+}
+
+.formEdit label{
+    color: #949494;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    
+}
+
+.formEdit input{
+    width: 305px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #C7C7C7;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    margin-top: 15px;
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+    text-indent: 10px;
+}
+
+.formEdit button{
+    width: 305px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #5970FF;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    border: none;
+    margin-top: 34px;
+}
+
+
+.restore{
+    color: #5970FF;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.loginVia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 305px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.loginVia p{
+    color: #949494;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+
+.loginVia div img{
+    margin-right: 8px;
+    width: 93px;
+    height: 31px;
+    flex-shrink: 0;
+    
+}
+
+.lock{
+    width: 75.219px;
+    height: 92.065px;
+    flex-shrink: 0;
+    position: relative;
+    left: 25%;
+    margin-bottom: -57%;
+    z-index: 9;
+}
+}

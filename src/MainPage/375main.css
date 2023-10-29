@@ -1,0 +1,355 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:ital,wght@0,400;0,500;0,900;1,400;1,500&display=swap');
+
+@media screen and (width <= 768px){
+
+
+
+main{
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.requestContainer{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    height:  815px;
+    align-items: center;
+}
+
+.imageRequest img{
+    width: 347.182px;
+    height: 327.312px;
+    flex-shrink: 0;
+    margin-left: 14px;
+    margin-top: 39.3;
+}
+
+.contTitle :first-child{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    width: 222px;
+}
+.contTitle .par{
+    margin-left: 14px;
+    margin-right: 34px;
+    width: 237px;
+}
+
+.requestData{
+    margin-top: 32px;
+    width: 335px;
+    height: 59px;
+    flex-shrink: 0;
+    margin-left: 14px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+.carousel{
+    width:auto;
+    height: 200px;
+}
+.base img ,.guard img ,.fastTime img {
+    margin-top: 22px;
+    margin-left: 16.9px;
+    width: 57.8px;
+    height: 57.8px
+}
+
+.base p ,.guard p ,.fastTime p{
+    width: 278.43px;
+    margin-bottom: 31px;
+    margin-left: 16.9px;
+}
+
+.base, .guard, .fastTime{
+    width: 298px;
+    height: 188px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.buttonNext{
+    left: 266px;
+    bottom: 128px;
+}
+.buttonBack{
+    bottom: 128px;
+    left: -30px;
+}
+.contSlider{
+    width: 100%;
+    margin-top: 32px;
+}
+
+.whyTitle{
+    width: 67%;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-left: 14px;
+    
+}
+
+.whyWe{
+    height: 346px;
+    margin-top: 55px;
+    width: 375px;
+}
+
+.slider{
+    width: 306px;
+    height: 211px;
+    padding-left: 7px;
+    margin-right: 7px;
+}
+
+.hiPhoto{
+    max-width: 375px;
+    height: 393px;
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+.containerTariff{
+    width: 375px;
+    height: 1863px;
+}
+.tariffTitle{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    width: 375px;
+}
+
+.cardContainer{
+    flex-direction: column;
+    margin-top: 37px;
+}
+.tariffCard{
+    width: 335px;
+    height: 527px;
+    margin-top: 40px;
+}
+
+.blackHeight{
+    height: 547px;
+}
+
+.card{
+    width: 335px; 
+    height: 132px;
+}
+
+.target{
+    width: 88px;
+    height: 96.181px;
+    flex-shrink: 0;
+    margin-bottom: 33.82px;
+    margin-left: -119px;  
+   
+}
+
+.laptop{
+    width: 68.299px;
+    height: 75.734px;
+    flex-shrink: 0;
+    margin-left: -119px;  
+    margin-bottom: 47px;
+}
+
+.lamp{
+    width: 73px;
+    height: 60.902px;
+    flex-shrink: 0;
+    margin-left: -119px;  
+    margin-bottom: 47px;
+    margin-right: 5px;
+}
+
+.cardHead{
+    width: 335px; 
+    height: 132px;
+}
+
+.blackT{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+
+.blackP{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-left: 24px;
+    margin-top: 22px;
+    width: 313px;
+    height: 22px;
+}
+.whiteT{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+
+.whiteP{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-left: 24px;
+    margin-top: 22px;
+    width: 313px;
+    height: 22px;
+}
+
+.optionTariff{
+    width: 335px; 
+    height: 415px
+}
+
+.currentTariff{
+    display: none;
+}
+
+.price{
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.listTariff{
+    margin-top: 73px;
+}
+
+.listTariff p{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-left: 24px;
+}
+
+.listTariff ul{
+    margin-top: 10px;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-left: 53px;
+    width: 276px;
+}
+
+.listTariff ul li{
+    margin-bottom: 8px;
+}
+
+.optionTariff .more{
+    width: 286.566px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #5970FF;
+    border: none;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin: 47px 24px 33px 25px;
+}
+
+.price .condition{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin-top: 10px;
+    height: 18px;
+    display: none;
+
+}
+
+.spyBut{
+    display: none; 
+}
+
+.selectMore{
+    transition: all 0.5s ease-in-out;
+    width: 286.566px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D2D2D2;
+    border: none;
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    margin: 47px 24px 33px 25px;
+
+}
+
+}

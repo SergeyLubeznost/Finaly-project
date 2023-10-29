@@ -1,0 +1,56 @@
+ footer{
+    width: 1440px;
+    background: #029491; 
+    height: 137px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+ }
+ .geoposition{
+   width: 199px;
+   height: 51px;
+ }
+
+ .geoposition p {
+   color: #FFF;
+   text-align: right;
+   font-family: 'Inter';
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.14px;
+ }
+ 
+ .copyright{
+   width: 94px;
+   height: 15px;
+   margin-top: 21px;
+ }
+
+ .copyright p {
+   color: #FFF;
+   font-family: 'Inter';
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.12px;
+ }
+
+ .conteinerCopy{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  text-align: end;
+  margin-right: 3.125%;
+  margin-left: 4.166%;
+ }
+ .footer-logo{
+  margin-left: 60px;
+  width: 135px;
+  height: 135px;
+
+ }

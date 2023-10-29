@@ -1,0 +1,33 @@
+@media screen and (width <= 768px){
+
+  footer{
+    width: 375px;
+    
+ }
+
+
+
+.footer-logo{
+  margin-left: 18px;
+  width: 111px;
+  height: 111px;
+  margin-top: -32px;
+ }
+
+ .conteinerCopy{
+  color: #FFF;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  margin-right: 19px;
+ }
+
+ .copyright{
+margin-top: 18px;
+ }
+
+}

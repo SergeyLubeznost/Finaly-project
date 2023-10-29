@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Ferry';
+    src: url('./fonts/ferry_black.otf') format('opentype');
+    /* Добавьте другие форматы шрифтов, если они у вас есть */
+  }
+  
+  body {
+    font-family: 'Ferry', sans-serif;
+  }
