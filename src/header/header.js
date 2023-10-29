@@ -29,7 +29,7 @@ const Contact = () => {
 
 const ReactRouterRoute = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { isLoggedIn, setIsLoggedIn, isLoading, setIsLoading} = useContext(AuthContext);
+  const { isLoggedIn, setIsLoggedIn, isLoading, setIsLoading, accessToken} = useContext(AuthContext);
   const [data, setData] = useState ([])
   const navigate = useNavigate();
 
@@ -60,7 +60,8 @@ const PrivateRoute2 = () => {
     const fetchData = async () => {
       try {
         setIsLoading(true);
-        const accessToken = localStorage.getItem('accessToken');
+       
+       
         const response = await axios.get('https://gateway.scan-interfax.ru/api/v1/account/info', {
           headers: {
             'Content-type': 'application/json',
@@ -167,7 +168,7 @@ const PrivateRoute2 = () => {
             isMenuOpen ? "adaptive-menu-end" : "adative-menu-start"
           }`}
         >
-          <div className="burger-adaptive">
+          <div className="burger-adaptive" >
             <Link to="/">
               <img
                 className="header-logo"
@@ -189,13 +190,13 @@ const PrivateRoute2 = () => {
             }`}
           >
             <ul>
-              <li>
+              <li onClick={()=>{closeMenu();}}>
                 <Link to="/">Главная</Link>
               </li>
-              <li>
+              <li onClick={()=>{closeMenu();}}>
                 <Link to="/about">Тарифы</Link>
               </li>
-              <li>
+              <li onClick={()=>{closeMenu();}}>
                 <Link to="/contact">FAQ</Link>
               </li>
             </ul>

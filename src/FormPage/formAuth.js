@@ -17,7 +17,7 @@ import './375pxformAuth.css'
 const Form = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
-    const { isLoggedIn, setIsLoggedIn, accessToken, setAccessToken} = useContext(AuthContext);
+    const { isLoggedIn, setIsLoggedIn, accessToken, setAccessToken, token, setToken} = useContext(AuthContext);
     const [formValid, setFormValid] = useState(false);
     const [loginError, setLoginError] = useState(false);
     const [passwordError, setPasswordError] = useState(false);
@@ -36,7 +36,6 @@ const Form = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
 
-          // Отправка данных на сервер
            try {
           const accessToken = await login(username, password);
           console.log(`Access token: ${accessToken}`);
@@ -59,9 +58,11 @@ const Form = () => {
             }
           });
           setAccessToken(response.data.accessToken);
+          setToken(response.data.accessToken)
           const expireDate = response.data.expire;
           console.log(`Access token: ${accessToken}`);
           console.log(`Expire date: ${expireDate}`);
+          console.log(token);
           
           return accessToken;
         } catch (error) {

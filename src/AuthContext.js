@@ -17,12 +17,13 @@ useEffect(() => {
     const [totalDocuments, settotalDocuments] = useState ([])
     const [riskFactors, setriskFactors] = useState ([])
     const [encodedIds, setEncodedIds] = useState ([])
+    const [token, setToken] = useState ([])
 
     const [documents, setDocuments] = useState ([])
 
   
     return (
-      <AuthContext.Provider value={{ isLoggedIn, setIsLoggedIn, isLoading, setIsLoading, accessToken, setAccessToken, totalDocuments, settotalDocuments, riskFactors, setriskFactors, documents, setDocuments, isLoadingSearch, setIsLoadingSearch, encodedIds, setEncodedIds }}>
+      <AuthContext.Provider value={{ isLoggedIn, setIsLoggedIn, isLoading, setIsLoading, accessToken, setAccessToken, totalDocuments, settotalDocuments, riskFactors, setriskFactors, documents, setDocuments, isLoadingSearch, setIsLoadingSearch, encodedIds, setEncodedIds, token, setToken}}>
         {children}
       </AuthContext.Provider>
     );

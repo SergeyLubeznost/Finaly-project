@@ -101,6 +101,7 @@
     height: 200px;
 }
 .adaptive-menu-end{
+  
     opacity: 1;
     transition: all 0.5s linear;
 }
@@ -108,6 +109,7 @@
     opacity: 0;
     transition: all 0.5s linear;
     height: 93px;
+    width: 0px;
 }
 .adaptive-logo-end{
     opacity: 1;
