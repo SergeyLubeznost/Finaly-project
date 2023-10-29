@@ -2,12 +2,14 @@
   "name": "scan",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/SergeyLubeznost/Finaly-project.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.5.1",
     "cheerio": "^1.0.0-rc.12",
+    "gh-pages": "^6.0.0",
     "http-proxy-middleware": "^2.0.6",
     "pure-react-carousel": "^1.30.1",
     "react": "^18.2.0",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
