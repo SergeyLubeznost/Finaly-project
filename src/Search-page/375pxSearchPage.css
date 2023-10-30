@@ -14,12 +14,12 @@
     margin-top: 11px;
 }
 
-.titleSerch {
+.titleSearch {
     margin-left: 14px;
     width: 335px;
 }
 
-.titleSerch h1{
+.titleSearch h1{
     color: #000;
     font-family: 'Montserrat', sans-serif;;
     font-size: 28px;
@@ -30,7 +30,7 @@
     width: 355px;
 }
 
-.titleSerch p{
+.titleSearch p{
     color: #000;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -171,8 +171,15 @@
     
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: block;
+    padding-right: 25px;
+    width: 20px;
+  }
+
 .displayNone{
     display: block;
+    
 }
 
 .searchButton{

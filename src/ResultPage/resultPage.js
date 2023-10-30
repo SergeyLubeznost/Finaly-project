@@ -187,7 +187,11 @@ return(
 
           <div className="categoryNews">
           <p>
-          Новости
+            {publication.ok.attributes.isTechNews ? "Технические новости" :
+              publication.ok.attributes.isAnnouncement ? "Анонс" :
+              publication.ok.attributes.isDigest ? "Дайджест" :
+              "Новости"
+            }
           </p>
           </div>
 
